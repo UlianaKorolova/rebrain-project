@@ -2404,14 +2404,19 @@ h1 {
 
 .hero_user_image {
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .hero_user_image.hero_user_image2,
 .hero_user_image.hero_user_image3,
 .hero_user_image.hero_user_image4 {
     margin-left: -10px;
+}
+
+.hero_user_image3{
+width: 30px;
+    height: 28px;
 }
 
 .desc-dark-text {
