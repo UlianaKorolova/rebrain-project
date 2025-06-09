@@ -2766,6 +2766,10 @@ width: 30px;
 }
 
 @media screen and (max-width: 991px) {
+
+    .section_features {
+    padding-top: 0px;
+    }
     .navbar {
         padding-left: 0px;
         padding-right: 0px;
