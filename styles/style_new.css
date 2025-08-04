@@ -2445,6 +2445,7 @@ h1 {
     width: 100%;
     margin-top: 0;
     display: flex;
+    padding-top: 100px;
 }
 
 .hero_content-wrapper {
