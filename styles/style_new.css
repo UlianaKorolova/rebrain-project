@@ -468,11 +468,23 @@ pre.w-code-block code {
     transition: unset;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
+.nav_link{
+    cursor: pointer;
+}
+
+.nav-link.active {
+  color: var(--accent);
+}
+
 .w-webflow-badge {
     white-space: nowrap;
     cursor: pointer;
     box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
-    visibility: visible !important;
+    visibility: hidden !important;
     opacity: 1 !important;
     z-index: 2147483647 !important;
     color: #aaadb0 !important;
@@ -488,7 +500,7 @@ pre.w-code-block code {
     text-decoration: none !important;
     display: inline-block !important;
     position: fixed !important;
-    inset: auto 12px 12px auto !important;
+    inset: none;
     transform: none !important;
 }
 
