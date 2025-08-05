@@ -2698,9 +2698,7 @@ h1 {
     left: -30px;
 }
 
-.section_footer {
 
-}
 
 html, body {
   height: auto;
@@ -2721,6 +2719,7 @@ html, body {
     align-items: flex-start;
     max-width: 330px;
     display: flex;
+    gap: 10px;
 }
 
 .footer_col2 {
