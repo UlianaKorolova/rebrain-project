@@ -468,9 +468,6 @@ pre.w-code-block code {
     transition: unset;
 }
 
-html {
-  scroll-behavior: smooth !important;
-}
 
 .nav_link{
     cursor: pointer;
@@ -2440,6 +2437,7 @@ h1 {
     padding-right: 60px;
 }
 
+
 .section_header_hero {
     justify-content: space-between;
     width: 100%;
@@ -2701,8 +2699,13 @@ h1 {
 }
 
 .section_footer {
-    padding-top: 100px;
-    padding-bottom: 0;
+
+}
+
+html, body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 .footer-wrapper {

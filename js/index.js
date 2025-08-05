@@ -90,3 +90,5 @@ document.querySelectorAll('[data-scroll-to]').forEach(link => {
     }
   });
 });
+
+lenis.scrollTo('max')
